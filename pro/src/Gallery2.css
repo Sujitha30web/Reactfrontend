@@ -1,0 +1,29 @@
+.parent{
+   display:flex;
+}
+
+.child{
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+gap:50px;
+}
+
+img{
+    height:300px;
+    width:300px;
+}
+
+h3{
+    margin-top:50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content:left;
+    font-size:25px;
+    font-weight:bolder;
+}
+
+.name{
+    padding-left:300px;
+}
